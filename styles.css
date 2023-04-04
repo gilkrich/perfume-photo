@@ -1,0 +1,92 @@
+#main-background{
+ height: 100vh;
+ background-color: #f3eae3;
+ justify-content: center;
+ display: flex; 
+ margin:0%
+}
+
+#main-image-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+#main-square{
+ background-color: #ffffff;
+ border-radius: 15px;
+ height: 400px;
+ width: auto;
+ display: flex;
+ justify-content: space-around;
+}
+
+#perfume-image{
+ height: 400px;
+ width: 300px;
+ border-radius: 15px;
+}
+
+#text-box{
+ display: flex;
+ flex-direction: column;
+ width: 280px;
+ padding: 2px;
+}
+
+#new-price{
+ font-size:x-large;
+ color: #3d8168;
+ font-weight: bolder;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#old-price{
+ color: gray;
+ font-size: small;
+ font-weight: lighter;
+ display: flex;
+ flex-direction: column;
+ text-decoration: line-through;
+}
+
+#add-button{
+ background-color: #3d8168;
+ border-radius: 15px;
+ border-color: #3d8168;
+  border-style: none;
+    width: 220px;
+    margin: auto;
+    height: 43px;
+    color: white;
+}
+
+#main-header{
+  position: relative;
+  margin-left: inherit;
+  font-weight: lighter;
+  font-size: medium;
+  bottom: 10px;
+  margin: 15px;
+  top: 5px;
+  left: 17px;
+  color: #85858f;
+}
+
+#second-header{
+  position: relative;
+  left: 30px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+#main-image{
+   border-top-left-radius: 5% ;
+   border-bottom-left-radius: 5%
+}
+
+#main-paragraph{
+  position: relative;
+  left: 30px;
+}
